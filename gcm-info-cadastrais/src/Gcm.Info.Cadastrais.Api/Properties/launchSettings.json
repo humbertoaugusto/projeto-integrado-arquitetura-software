@@ -1,0 +1,33 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:26960/",
+      "sslPort": 44329
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "RETURN_DEFAULT_EXCEPTION": "false",
+        "SQL_CONNECTION_STRING": "Server = localhost\\SQLEXPRESS02; Database = db_info_cadastrais; Trusted_Connection = True; MultipleActiveResultSets = True; "
+      }
+    },
+    "Gcm.Info.Cadastrais.Api": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "RETURN_DEFAULT_EXCEPTION": "false",
+        "SQL_CONNECTION_STRING": "Server = NOTE-HUMBERTO; Database = db_info_cadastrais; Trusted_Connection = True; MultipleActiveResultSets = True; "
+      },
+      "applicationUrl": "https://localhost:5001;http://localhost:5000"
+    }
+  }
+}
